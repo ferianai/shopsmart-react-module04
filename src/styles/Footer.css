@@ -1,0 +1,73 @@
+/* Footer styles */
+.footer {
+    background-color: #2d2d2d;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .footer-section h2,
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul li a {
+    color: #00aaff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00d4ff;
+  }
+  
+  .certificates img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .fixed-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #00aaff;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  
+  .fixed-button:hover {
+    background-color: #007acc;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid #444;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
