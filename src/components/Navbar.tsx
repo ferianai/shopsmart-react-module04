@@ -26,11 +26,12 @@ const Navbar: React.FC = () => {
         </ul>
         <ul className='flex space-x-4 ml-auto'>
             <li>{email ? (
-              <span>Welcome, {name} <button onClick={handleLogout}>Logout</button></span>
+               <button onClick={handleLogout}>Logout</button>
               ) : (
               <Link to="/login">Login</Link>
               )}</li>
             <li><Link to="/register">Register</Link></li>
+            <li><span className='font-bold'> {name}</span></li>
         </ul>
     </nav>
   )

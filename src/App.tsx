@@ -1,15 +1,21 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Import Context
 import { CartProvider } from './context/CartContext';
-import Navbar from "./pages/Navbar";
-import Footer from "./pages/Footer";
+
+// Import Components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+// Import Pages
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Products from "./components/Products";
-import DetailProduct from "./components/DetailProduct";
-import Cart from "./components/Cart";
-import PaymentSuccess from "./components/PaymentSuccess";
+import Products from "./pages/Products";
+import DetailProduct from "./pages/DetailProduct";
+import Cart from "./pages/Cart";
+import PaymentSuccess from "./pages/PaymentSuccess";
 
 const App: React.FC = () => {
   return (
